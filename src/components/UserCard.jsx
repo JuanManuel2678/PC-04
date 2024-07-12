@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function UserCard({user: {name,username, email, id}}) {
+export default function UserCard({item: {name,username, email, id}}) {
     return (
         <li className="card">
             <figure className="container_img">
