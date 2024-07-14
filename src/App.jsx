@@ -17,6 +17,12 @@ export default function App() {
       name: user?.name,
       username: user?.username,
       email: user?.email,
+      telefono: user?.phone,
+      paguina: user?.website,
+      compañia: user?.company,
+      direccion: user?.address,
+
+
     }));
     setData(filterData);
     setName(filterData)
